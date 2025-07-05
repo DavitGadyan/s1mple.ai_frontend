@@ -28,7 +28,7 @@ export default function Chat() {
 
     try {
       // 2) call your API
-      const res = await fetch('http://34.9.28.178:8000/run', {
+      const res = await fetch('https://api.s1mpleai.org/run', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ text: trimmed }),
