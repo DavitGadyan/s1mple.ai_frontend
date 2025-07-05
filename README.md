@@ -1,73 +1,120 @@
-# Welcome to your Lovable project
+# s1mple.ai
 
-## Project info
+[Dashboard](#dashboard) · [Tools](#tools) · [Agents](#agents) · [Chains](#chains) · [Docs](#documentation) · [Sign In](https://s1mple-ai-2025.vercel.app/signin) · [Get Started](https://s1mple-ai-2025.vercel.app/signup)
 
-**URL**: https://lovable.dev/projects/4769c2bf-9fe7-4b60-a679-d63d23c800f4
+---
 
-## How can I edit this code?
+**Portfolio**: [David Gadyan](https://davitgadyan.github.io/portfolio_app_upwork/)
+**URL**: https://s1mple-ai-2025.vercel.app/
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Overview
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4769c2bf-9fe7-4b60-a679-d63d23c800f4) and start prompting.
+s1mple.ai is an advanced AI agent platform built by David Gadyan. It seamlessly connects to your custom data sources, management tools, trading systems, and more—empowering you to deploy powerful analytics and decision-making workflows at scale.
 
-Changes made via Lovable will be committed automatically to this repo.
+> “S1mple AI that seamlessly connects with your custom data, management, trading and other tools.”
 
-**Use your preferred IDE**
+- **Enterprise-grade security**  
+- **No credit card required** – Start building for free  
+- **99.9% uptime**, **24/7 expert support**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Quick Start
 
-Follow these steps:
+1. **Sign Up** or **Sign In** at [s1mple-ai-2025.vercel.app](https://s1mple-ai-2025.vercel.app/).  
+2. Go to the **Dashboard**.  
+3. **Connect** the tools and data sources you want your AI agents to use.  
+4. **Build**, **test**, and **deploy** agents, chains, and workflows instantly.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🌐 Dashboard
 
-# Step 3: Install the necessary dependencies.
-npm i
+From the Dashboard, you can:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- **Launch Agents** to query any connected tool or API  
+- **Run Chains**—visual or code-based workflows of agent steps  
+- **Monitor** usage, logs, and performance metrics  
+- **Add Custom Tools**: any REST API, webhook, database, or internal service can be turned into an AI-powered agent
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔧 Tools & Integrations
 
-**Use GitHub Codespaces**
+Select and configure from 100+ pre-built connectors:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+| Category            | Examples                                      |
+| ------------------- | --------------------------------------------- |
+| ✉️ Email            | Gmail                                         |
+| 📅 Calendar         | Google Calendar, Outlook Calendar             |
+| 💹 Financial Data   | Market APIs, Stock Tickers                    |
+| 📊 Analytics        | Metabase, Google Analytics                    |
+| 📈 Trading          | Binance, Alpaca, Interactive Brokers          |
+| 💰 Wallet           | Ethereum, Bitcoin, Solana wallets             |
 
-## What technologies are used for this project?
+> **50K+ developers** building on our platform • **99.9% uptime** • **24/7 support**
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Core Benefits
 
-## How can I deploy this project?
+### 🔗 Connect Your Data Sources
+- 100+ pre-built connectors  
+- Real-time data sync  
+- Secure, authenticated API integrations  
+- Custom connector support for any REST or GraphQL API
 
-Simply open [Lovable](https://lovable.dev/projects/4769c2bf-9fe7-4b60-a679-d63d23c800f4) and click on Share -> Publish.
+### ⚡ AI-Powered Insights in Minutes
+- Automated data ingestion & processing  
+- Intelligent pattern recognition & anomaly detection  
+- Real-time recommendations & alerts  
+- Contextual understanding powered by large language models
 
-## Can I connect a custom domain to my Lovable project?
+### 🚀 Scale Team Productivity
+- Intuitive drag-and-drop interface  
+- Pre-built templates and chains  
+- Collaborative development workspace  
+- Automated CI/CD for agent deployments
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🔗 Powering the Current Bot
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+The s1mple.ai frontend communicates over HTTPS with a secure GCP-hosted backend that orchestrates:
+
+1. **APIFY API** scrapers and connectors  
+2. **OpenAI** (and other LLMs) for reasoning, synthesis, and natural-language understanding  
+3. A dynamically extensible tool registry, so you can plug in any additional API, database, or service
+
+This layered design **surpasses conventional front-end limits**—think of it like adding **your own custom plugins** into a super-charged AI assistant. Whatever data your business needs, you can expose it as an agent, chain it into a workflow, and let the AI do the rest.
+
+---
+
+## 🧩 Building Custom Tools
+
+1. **Define** your API endpoint or data source.  
+2. **Register** it in the Dashboard under **Tools → Add Custom Tool**.  
+3. **Map** inputs/outputs so agents know how to call it.  
+4. **Use** it in any agent or chain—just as you would Gmail or Trading integrations.
+
+> _Analogy:_ Just as you can install plugins in your browser to add new features, you can “install” any API into s1mple.ai to extend your AI agents’ capabilities.
+
+---
+
+## 📖 Documentation & Support
+
+- **Docs**: https://s1mple-ai-2025.vercel.app/docs  
+- **Community Forum**: Coming Soon!  
+- **Support**: 24/7 expert assistance via in-app chat or email support@s1mple.ai  
+
+---
+
+## ⭐️ Get Started Now
+
+[Start Building Free](https://s1mple-ai-2025.vercel.app/signup) · [View Demo](https://s1mple-ai-2025.vercel.app/demo)
+
+---
+
+© 2025 David Gadyan & the s1mple.ai. All rights reserved.  
