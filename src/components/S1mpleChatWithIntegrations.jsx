@@ -17,6 +17,11 @@ const integrations = [
   { name: 'Financial Datasets', logo: 'https://img.freepik.com/premium-vector/financial-data-icon-vector-image-can-be-used-project-management_120816-317110.jpg' },
 ];
 
+const mcp_integrations = [
+  { name: 'Notion', logo: 'https://registry.npmmirror.com/@lobehub/icons-static-png/1.56.0/files/light/notion.png' },
+  
+];
+
 export default function S1mpleChatWithIntegrations() {
  
 
@@ -32,6 +37,16 @@ export default function S1mpleChatWithIntegrations() {
           <h3 className="text-lg font-medium mb-4">Integrations</h3>
           <ul className="space-y-3">
             {integrations.map(({ name, logo }) => (
+              <li key={name} className="flex items-center space-x-3">
+                <img src={logo} alt={name} className="h-6 w-6 object-contain" />
+                <span className="text-sm">{name}</span>
+              </li>
+            ))}
+          </ul>
+
+          <h3 className="text-lg font-medium mb-4">MCP Integrations</h3>
+          <ul className="space-y-3">
+            {mcp_integrations.map(({ name, logo }) => (
               <li key={name} className="flex items-center space-x-3">
                 <img src={logo} alt={name} className="h-6 w-6 object-contain" />
                 <span className="text-sm">{name}</span>
