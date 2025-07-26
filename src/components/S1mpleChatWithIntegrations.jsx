@@ -43,7 +43,8 @@ export default function S1mpleChatWithIntegrations() {
               </li>
             ))}
           </ul>
-
+          <br></br>
+          <br></br>
           <h3 className="text-lg font-medium mb-4">MCP Integrations</h3>
           <ul className="space-y-3">
             {mcp_integrations.map(({ name, logo }) => (
